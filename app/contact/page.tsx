@@ -1,3 +1,5 @@
+"use client";
+
 import PageHero from "@/components/PageHero";
 
 export default function Page() {
@@ -74,11 +76,17 @@ export default function Page() {
           </form>
 
           <div className="mt-6 grid gap-3 text-center text-sm text-white/70 sm:grid-cols-3">
-            <a href="mailto:service@jh6autoshop.com" className="rounded-xl px-3 py-2 hover:bg-white/5 hover:text-white">
+            <a
+              href="mailto:service@jh6autoshop.com"
+              className="rounded-xl px-3 py-2 hover:bg-white/5 hover:text-white"
+            >
               service@jh6autoshop.com
             </a>
             <span className="rounded-xl px-3 py-2">Mon–Fri, 9–5 ET</span>
-            <a href="tel:+17739326511" className="rounded-xl px-3 py-2 hover:bg-white/5 hover:text-white">
+            <a
+              href="tel:+17739326511"
+              className="rounded-xl px-3 py-2 hover:bg-white/5 hover:text-white"
+            >
               (773) 932-6511
             </a>
           </div>
