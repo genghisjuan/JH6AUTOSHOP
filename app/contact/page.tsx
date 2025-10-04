@@ -10,7 +10,8 @@ export default function Page() {
         subtitle="Questions about consulting, sourcing, or partnerships? Send a note."
       />
 
-      <section className="mx-auto max-w-7xl px-4 sm:px-6 pb-16 mt-10">
+      {/* Nudge the entire form block down for visual centering */}
+      <section className="mx-auto max-w-7xl px-4 sm:px-6 pb-16 mt-16 sm:mt-24 lg:mt-28">
         <div className="mx-auto w-full max-w-3xl rounded-[24px] border border-white/10 bg-white/5 p-6 sm:p-8 ring-1 ring-white/5 backdrop-blur">
           <form
             className="space-y-4"
@@ -27,9 +28,7 @@ export default function Page() {
             }}
           >
             <div>
-              <label htmlFor="email" className="sr-only">
-                Email
-              </label>
+              <label htmlFor="email" className="sr-only">Email</label>
               <input
                 id="email"
                 name="email"
@@ -41,9 +40,7 @@ export default function Page() {
             </div>
 
             <div>
-              <label htmlFor="subject" className="sr-only">
-                Subject
-              </label>
+              <label htmlFor="subject" className="sr-only">Subject</label>
               <input
                 id="subject"
                 name="subject"
@@ -54,9 +51,7 @@ export default function Page() {
             </div>
 
             <div>
-              <label htmlFor="message" className="sr-only">
-                Message
-              </label>
+              <label htmlFor="message" className="sr-only">Message</label>
               <textarea
                 id="message"
                 name="message"
@@ -76,17 +71,11 @@ export default function Page() {
           </form>
 
           <div className="mt-6 grid gap-3 text-center text-sm text-white/70 sm:grid-cols-3">
-            <a
-              href="mailto:service@jh6autoshop.com"
-              className="rounded-xl px-3 py-2 hover:bg-white/5 hover:text-white"
-            >
+            <a href="mailto:service@jh6autoshop.com" className="rounded-xl px-3 py-2 hover:bg-white/5 hover:text-white">
               service@jh6autoshop.com
             </a>
             <span className="rounded-xl px-3 py-2">Mon–Fri, 9–5 ET</span>
-            <a
-              href="tel:+17739326511"
-              className="rounded-xl px-3 py-2 hover:bg-white/5 hover:text-white"
-            >
+            <a href="tel:+17739326511" className="rounded-xl px-3 py-2 hover:bg-white/5 hover:text-white">
               (773) 932-6511
             </a>
           </div>
