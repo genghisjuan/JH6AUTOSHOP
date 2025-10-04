@@ -11,11 +11,8 @@ export default function Page() {
       <section className="mx-auto max-w-7xl px-4 sm:px-6 pb-16 mt-10">
         <div className="rounded-[24px] border border-white/10 bg-white/5 p-6 sm:p-10 ring-1 ring-white/5 backdrop-blur">
           <div className="grid gap-6 md:grid-cols-2">
-            {/* Export Agents */}
             <article className="rounded-2xl border border-white/10 bg-neutral-900/60 p-6 ring-1 ring-white/5">
-              <h3 className="text-lg font-semibold text-white">
-                Export Agents (EU/Japan)
-              </h3>
+              <h3 className="text-lg font-semibold text-white">Export Agents (EU/Japan)</h3>
               <ul className="mt-4 space-y-2 text-sm text-white/80">
                 <li>• Consistent leads with buyer requirements pre-vetted.</li>
                 <li>• Vehicle verification & logistics coordination.</li>
@@ -23,11 +20,8 @@ export default function Page() {
               </ul>
             </article>
 
-            {/* Licensed Customs Brokers */}
             <article className="rounded-2xl border border-white/10 bg-neutral-900/60 p-6 ring-1 ring-white/5">
-              <h3 className="text-lg font-semibold text-white">
-                Licensed Customs Brokers (U.S.)
-              </h3>
+              <h3 className="text-lg font-semibold text-white">Licensed Customs Brokers (U.S.)</h3>
               <ul className="mt-4 space-y-2 text-sm text-white/80">
                 <li>• Qualified clients ready for entry filings.</li>
                 <li>• Organized documentation, aligned timelines.</li>
@@ -35,11 +29,8 @@ export default function Page() {
               </ul>
             </article>
 
-            {/* Dealers */}
             <article className="rounded-2xl border border-white/10 bg-neutral-900/60 p-6 ring-1 ring-white/5">
-              <h3 className="text-lg font-semibold text-white">
-                Dealers (Florida & Nationwide)
-              </h3>
+              <h3 className="text-lg font-semibold text-white">Dealers (Florida & Nationwide)</h3>
               <ul className="mt-4 space-y-2 text-sm text-white/80">
                 <li>• Resale-ready imports with full provenance.</li>
                 <li>• Sourcing on spec for your customers.</li>
@@ -47,11 +38,8 @@ export default function Page() {
               </ul>
             </article>
 
-            {/* How We Operate */}
             <article className="rounded-2xl border border-white/10 bg-neutral-900/60 p-6 ring-1 ring-white/5">
-              <h3 className="text-lg font-semibold text-white">
-                How We Operate
-              </h3>
+              <h3 className="text-lg font-semibold text-white">How We Operate</h3>
               <ul className="mt-4 space-y-2 text-sm text-white/80">
                 <li>• Compliance-first: 25-year rule & legal entry.</li>
                 <li>• Transparency on fees, roles, and timelines.</li>
@@ -60,16 +48,15 @@ export default function Page() {
             </article>
           </div>
 
-          {/* CTAs */}
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <a
-              href="#contact"
+              href="/contact"
               className="rounded-2xl border border-white/10 bg-white/10 px-6 py-3 text-sm font-semibold text-white ring-1 ring-white/10 hover:bg-white/15"
             >
               Propose a Partnership
             </a>
             <a
-              href="#contact"
+              href="/contact"
               className="rounded-2xl border border-white/10 bg-white/10 px-6 py-3 text-sm font-semibold text-white ring-1 ring-white/10 hover:bg-white/15"
             >
               Request Intro Call
