@@ -1,4 +1,10 @@
-export default function PageHero({ title, subtitle }: { title: React.ReactNode; subtitle?: React.ReactNode }) {
+export default function PageHero({
+  title,
+  subtitle,
+}: {
+  title: React.ReactNode;
+  subtitle?: React.ReactNode;
+}) {
   return (
     <section className="relative isolate h-[60vh] flex items-center">
       <div
