@@ -21,7 +21,8 @@ export default function Page() {
         subtitle="Support the build — new drops coming soon."
       />
 
-      <section className="mx-auto max-w-7xl px-4 sm:px-6 pb-16">
+      {/* Offset the entire merch grid downward to align between your guide lines */}
+      <section className="mx-auto max-w-7xl px-4 sm:px-6 pb-16 mt-16 sm:mt-20 lg:mt-24">
         <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {items.map((item) => (
             <li key={item.title} className="group">
@@ -35,9 +36,7 @@ export default function Page() {
 
               <div className="mt-3 flex items-start justify-between gap-3">
                 <div>
-                  <h3 className="text-sm font-semibold text-white">
-                    {item.title}
-                  </h3>
+                  <h3 className="text-sm font-semibold text-white">{item.title}</h3>
                   <p className="mt-1 text-xs text-white/70">{item.price}</p>
                 </div>
 
