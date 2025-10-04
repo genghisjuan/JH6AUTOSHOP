@@ -36,7 +36,7 @@ export default function Page() {
 
             <div className="mt-7 flex flex-wrap gap-3">
               <a
-                href="#contact"
+                href="/contact"
                 className="rounded-2xl border border-white/10 bg-white/10 px-5 py-3 text-sm font-semibold text-white ring-1 ring-white/10 hover:bg-white/15"
               >
                 Request Sourcing
