@@ -29,10 +29,7 @@ export default function Page() {
                 <li>✓ 3–5 action items to move forward</li>
               </ul>
               <div className="mt-6">
-                <a
-                  href="#contact"
-                  className="block w-full rounded-2xl border border-white/10 bg-white/10 px-5 py-3 text-center text-sm font-semibold text-white ring-1 ring-white/10 hover:bg-white/15"
-                >
+                <a href="/contact" className="block w-full rounded-2xl border border-white/10 bg-white/10 px-5 py-3 text-center text-sm font-semibold text-white ring-1 ring-white/10 hover:bg-white/15">
                   Book Starter
                 </a>
                 <p className="mt-3 text-center text-xs text-white/60">
@@ -52,9 +49,7 @@ export default function Page() {
                 </p>
               </header>
               <div className="mt-4">
-                <div className="text-4xl font-extrabold text-white">
-                  $179.99
-                </div>
+                <div className="text-4xl font-extrabold text-white">$179.99</div>
                 <div className="text-xs text-white/60 mt-1">/ 60 min</div>
               </div>
               <ul className="mt-6 space-y-3 text-sm text-white/80">
@@ -64,10 +59,7 @@ export default function Page() {
                 <li>✓ Broker/export playbook + warm introductions</li>
               </ul>
               <div className="mt-6">
-                <a
-                  href="#contact"
-                  className="block w-full rounded-2xl border border-white/10 bg-white/10 px-5 py-3 text-center text-sm font-semibold text-white ring-1 ring-white/10 hover:bg-white/15"
-                >
+                <a href="/contact" className="block w-full rounded-2xl border border-white/10 bg-white/10 px-5 py-3 text-center text-sm font-semibold text-white ring-1 ring-white/10 hover:bg-white/15">
                   Book Standard
                 </a>
                 <p className="mt-3 text-center text-xs text-white/60">
@@ -84,9 +76,7 @@ export default function Page() {
                 </p>
               </header>
               <div className="mt-4">
-                <div className="text-4xl font-extrabold text-white">
-                  $249.99
-                </div>
+                <div className="text-4xl font-extrabold text-white">$249.99</div>
                 <div className="text-xs text-white/60 mt-1">/ 90 min</div>
               </div>
               <ul className="mt-6 space-y-3 text-sm text-white/80">
@@ -96,10 +86,7 @@ export default function Page() {
                 <li>✓ Priority action plan + broker/export handoff</li>
               </ul>
               <div className="mt-6">
-                <a
-                  href="#contact"
-                  className="block w-full rounded-2xl border border-white/10 bg-white/10 px-5 py-3 text-center text-sm font-semibold text-white ring-1 ring-white/10 hover:bg-white/15"
-                >
+                <a href="/contact" className="block w-full rounded-2xl border border-white/10 bg-white/10 px-5 py-3 text-center text-sm font-semibold text-white ring-1 ring-white/10 hover:bg-white/15">
                   Book Pro
                 </a>
                 <p className="mt-3 text-center text-xs text-white/60">
