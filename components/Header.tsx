@@ -33,7 +33,7 @@ export default function Header() {
           </nav>
           <div className="flex items-center gap-3">
             <a
-              href="#contact"
+              href="/contact"
               className="hidden rounded-full bg-white/95 px-4 py-2 text-sm font-semibold text-neutral-900 shadow-sm ring-1 ring-black/10 transition hover:bg-white md:inline"
             >
               Contact
@@ -68,7 +68,7 @@ export default function Header() {
                 </a>
               ))}
               <a
-                href="#contact"
+                href="/contact"
                 className="w-full max-w-[560px] rounded-full bg-white/95 px-5 py-3 text-center text-base font-semibold text-neutral-900 shadow-sm ring-1 ring-black/10 hover:bg-white"
                 onClick={() => setOpen(false)}
               >
