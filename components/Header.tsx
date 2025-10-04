@@ -17,15 +17,12 @@ export default function Header() {
     <header className="sticky top-0 z-50 w-full border-b border-white/5 bg-neutral-950/70 backdrop-blur supports-[backdrop-filter]:bg-neutral-950/60">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <div className="flex h-16 items-center justify-between gap-4">
-          <a href="/" className="flex items-center gap-3">
+          <a href="/" className="flex items-center">
             <img
               src="/logo.png"
               alt="JH6 Autoshop"
-              className="h-9 w-9 shrink-0 rounded-full border border-white/20 bg-neutral-900 object-cover"
+              className="h-12 w-12 shrink-0 rounded-full border border-white/20 bg-neutral-900 object-cover"
             />
-            <span className="hidden text-sm font-medium text-white/70 sm:inline">
-              Autoshop
-            </span>
           </a>
           <nav className="hidden items-center gap-6 text-sm text-white/70 md:flex">
             {nav.map(([label, href]) => (
