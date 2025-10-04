@@ -48,7 +48,7 @@ export default function Footer() {
             © 2025 JH6 Autoshop. All rights reserved.{" "}
             <a
               className="underline decoration-white/20 underline-offset-4 hover:text-white"
-              href="#"
+              href="/privacy"
             >
               Privacy
             </a>
