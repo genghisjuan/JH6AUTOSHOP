@@ -12,6 +12,7 @@ export default function Header() {
     ["Knowledge Hub", "/hub"],
     ["Merch", "/merch"],
     ["3D Scans", "/scans"],
+    ["Rally", "/rally"],
   ] as const;
 
   return (
