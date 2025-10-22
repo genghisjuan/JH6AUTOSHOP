@@ -11,7 +11,7 @@ export default function Page() {
       />
 
     {/* Event Image — centered and styled to fit your brand aesthetic */}
-              <section className="mx-auto max-w-5xl px-4 sm:px-6 mt-10">
+              <section className="mx-auto max-w-3xl px-4 sm:px-6 mt-10">
                 <img
                   src="/rally_event.png"
                   alt="Gulf Heritage Rally Event"
