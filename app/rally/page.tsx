@@ -14,16 +14,7 @@ export default function Page() {
         <img
           src="/rally_event.png"
           alt="Gulf Heritage Rally Event"
-          className="relative z-10 w-[80%] max-w-[600px] rounded-2xl border border-white/10 shadow-lg shadow-black/40 object-contain"
-        />
-      </section>
-
-      {/* Event Image — centered and styled to fit your brand aesthetic */}
-      <section className="mx-auto max-w-3xl px-4 sm:px-6 mt-10">
-        <img
-          src="/rally_event.png"
-          alt="Gulf Heritage Rally Event"
-          className="w-full rounded-2xl border border-white/10 shadow-lg shadow-black/40 object-cover"
+          className="relative z-10 w-[70%] sm:w-[60%] md:w-[50%] max-w-[400px] rounded-2xl border border-white/10 shadow-lg shadow-black/40 object-contain"
         />
       </section>
 
