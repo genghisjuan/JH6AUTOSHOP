@@ -32,6 +32,15 @@ export default function Page() {
           </p>
         </div>
 
+         {/* Event Image — centered and styled to fit your brand aesthetic */}
+              <section className="mx-auto max-w-5xl px-4 sm:px-6 mt-10">
+                <img
+                  src="/rally_event.png"
+                  alt="Gulf Heritage Rally Event"
+                  className="w-full rounded-2xl border border-white/10 shadow-lg shadow-black/40 object-cover"
+                />
+              </section>
+        
         {/* Quick Facts */}
         <div className="mx-auto mt-14 grid max-w-5xl gap-4 sm:grid-cols-2 lg:grid-cols-4 text-center">
           {[
