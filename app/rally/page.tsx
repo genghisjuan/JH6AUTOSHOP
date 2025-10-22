@@ -11,11 +11,13 @@ export default function Page() {
         }}
       >
         <div className="absolute inset-0 bg-black/50" />
+       
         <img
           src="/rally_event.png"
           alt="Gulf Heritage Rally Event"
-          className="relative z-10 w-[70%] sm:w-[60%] md:w-[50%] max-w-[600px] rounded-2xl border border-white/10 shadow-lg shadow-black/40 object-contain"
+          className="relative z-10 w-[85%] max-w-[1200px] md:w-[80%] lg:w-[70%] rounded-xl border border-white/10 shadow-lg shadow-black/40 object-contain"
         />
+
       </section>
 
       <section className="mx-auto max-w-7xl px-4 sm:px-6 mt-16 sm:mt-20 lg:mt-24 pb-20">
