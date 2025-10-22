@@ -4,8 +4,10 @@ export default function Page() {
   return (
     <div>
       <PageHero
-        title="The JH6 Gulf Heritage Rally"
-        subtitle="A celebration of classic motoring along Florida’s Gulf Coast — community over competition."
+        title="Gulf Heritage Rally"
+        subtitle="A tribute to the golden age of motoring along Florida’s Gulf Coast. The Gulf Heritage Rally celebrates craftsmanship, camaraderie, and the enduring allure of the open road. 
+        Drivers come not to race, but to relive an era when every journey was an adventure. when precision, style, and spirit defined the drive. 
+        It’s not about speed; it’s about heritage, connection, and the joy of the road well traveled."
       />
 
       <section className="mx-auto max-w-7xl px-4 sm:px-6 mt-16 sm:mt-20 lg:mt-24 pb-20">
@@ -16,7 +18,7 @@ export default function Page() {
               3 Days / 2 Nights
             </span>
             <span className="rounded-full border border-white/15 bg-white/10 px-3 py-1 text-[12px] font-semibold tracking-wide text-white">
-              Orlando → Clearwater → Alabama State Line → Orlando
+              Orlando → Mexico Beach → Pensacola → Orlando
             </span>
             <span className="rounded-full border border-white/15 bg-white/10 px-3 py-1 text-[12px] font-semibold tracking-wide text-white">
               Limited to 30 Cars
@@ -24,9 +26,9 @@ export default function Page() {
           </div>
 
           <p className="mx-auto max-w-3xl text-white/80 leading-relaxed">
-            The JH6 Gulf Heritage Rally is a three-day celebration of classic driving — scenic
-            routes, historic towns, and shared passion. It’s not a race. It’s about the drive, the
-            people, and the stories along the way.
+           The Gulf Heritage Rally is a three-day touring event for classic and vintage automobiles along Florida’s Gulf Coast. Participants will drive curated routes that blend scenic shoreline stretches with inland roads that showcase the region’s charm and character. 
+            Each day features stops in historic towns, gatherings at notable landmarks, and shared meals that bring drivers and enthusiasts together.
+            There is no competition, timing, or ranking — only an appreciation for the drive, the machines, and the community they create. Open to a limited number of entrants, the rally welcomes owners who share a passion for craftsmanship, authenticity, and the enduring spirit of motoring.
           </p>
         </div>
 
@@ -53,15 +55,15 @@ export default function Page() {
           {[
             {
               title: "The Experience",
-              desc: "Scenic roads, historic towns, and Gulf views. A relaxed convoy—not timed or scored—with shared waypoints and nightly gatherings that celebrate connection, stories, and the joy of driving.",
+              desc: "Scenic roads, historic towns, and Gulf views. A relaxed convoy, not timed or scored. With shared waypoints and nightly gatherings that celebrate connection, stories, and the joy of driving.",
             },
             {
               title: "The Cars",
-              desc: "Open to vehicles 30+ years old that embody the golden era of analog driving. Original or period-correct builds, minimal modifications, and driver-focused character — from coupes to hatchbacks.",
+              desc: "Open to vehicles 30+ years old that embody the golden era of analog driving. Original or period-correct builds, minimal modifications, and driver-focused character. From coupes to hatchbacks, all are welcome.",
             },
             {
               title: "The Purpose",
-              desc: "Proceeds support Habitat for Humanity Greater Orlando & Osceola County, helping families in need. Driving for fun is great — driving for good is even better.",
+              desc: "Proceeds support Habitat for Humanity Greater Orlando & Osceola County, helping families in need. Driving for fun is great, driving for good is even better.",
             },
           ].map(({ title, desc }) => (
             <article
@@ -78,26 +80,26 @@ export default function Page() {
         <div className="mx-auto mt-14 max-w-4xl rounded-2xl border border-white/10 bg-white/5 p-6 sm:p-8 text-center ring-1 ring-white/5 backdrop-blur">
           <h2 className="text-xl font-semibold text-white mb-2">Route & Daily Flow</h2>
           <p className="text-sm text-white/80 mb-6">
-            Orlando → Clearwater → Alabama State Line → Orlando
+            Orlando → Mexico Beach → Pensacola → Orlando
           </p>
 
           <ol className="space-y-4 text-left sm:text-center">
             {[
               {
                 day: "Day 1",
-                route: "Orlando → Clearwater",
+                route: "Orlando → Mexico Beach",
                 notes:
                   "Morning departure, relaxed pace with scenic inland routes, sunset coastal arrival, and welcome dinner.",
               },
               {
                 day: "Day 2",
-                route: "Clearwater → Alabama State Line",
+                route: "Mexico Beach → Pensacola",
                 notes:
                   "Drive up Florida’s Gulf Coast through charming coastal towns and hidden backroads. Group lunch and evening social.",
               },
               {
                 day: "Day 3",
-                route: "Alabama → Orlando",
+                route: "Pensacola → Orlando",
                 notes:
                   "Return journey along the inland route with a closing celebration. Every driver and co-driver recognized for completing the rally.",
               },
@@ -123,9 +125,9 @@ export default function Page() {
           </p>
           <ul className="mt-3 grid gap-2 text-sm text-white/80 sm:grid-cols-2 text-left sm:text-center">
             <li>• Valid license, registration, and insurance</li>
-            <li>• Basic tools / spares for minor repairs</li>
+            <li>• Basic tools / spares for repairs</li>
             <li>• Navigation (GPS or app)</li>
-            <li>• Positive attitude and love of analog driving</li>
+            <li>• Positive attitude and love of driving</li>
           </ul>
         </div>
 
@@ -136,7 +138,7 @@ export default function Page() {
         >
           <h2 className="text-xl font-semibold text-white mb-3">Registration</h2>
           <p className="text-sm text-white/80">
-            Registration opens on <span className="text-white">[insert date]</span> at{" "}
+            Registration opens on <span className="text-white">[November 1st]\</span> at{" "}
             <span className="text-white">jh6autoshop.com/rally</span>. Entry limited to{" "}
             <span className="text-white">30 vehicles</span> to ensure a close-knit, relaxed
             experience.
