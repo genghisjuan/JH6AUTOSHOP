@@ -1,24 +1,32 @@
-import PageHero from "@/components/PageHero";
-
 export default function Page() {
   return (
     <div>
-      <PageHero
-        title="Gulf Heritage Rally"
-        subtitle="A tribute to the golden age of motoring along Florida’s Gulf Coast. The Gulf Heritage Rally celebrates craftsmanship, camaraderie, and the enduring allure of the open road. 
-        Drivers come not to race, but to relive an era when every journey was an adventure. when precision, style, and spirit defined the drive. 
-        It’s not about speed; it’s about heritage, connection, and the joy of the road well traveled."
-      />
+      {/* Hero with image overlay (replaces PageHero title/subtitle) */}
+      <section
+        className="relative flex h-[70vh] w-full items-center justify-center overflow-hidden rounded-b-3xl"
+        style={{
+          backgroundImage: "url('/hero.jpg')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
+        <div className="absolute inset-0 bg-black/50" />
+        <img
+          src="/rally_event.png"
+          alt="Gulf Heritage Rally Event"
+          className="relative z-10 w-[80%] max-w-[600px] rounded-2xl border border-white/10 shadow-lg shadow-black/40 object-contain"
+        />
+      </section>
 
-    {/* Event Image — centered and styled to fit your brand aesthetic */}
-              <section className="mx-auto max-w-3xl px-4 sm:px-6 mt-10">
-                <img
-                  src="/rally_event.png"
-                  alt="Gulf Heritage Rally Event"
-                  className="w-full rounded-2xl border border-white/10 shadow-lg shadow-black/40 object-cover"
-                />
-              </section>
-      
+      {/* Event Image — centered and styled to fit your brand aesthetic */}
+      <section className="mx-auto max-w-3xl px-4 sm:px-6 mt-10">
+        <img
+          src="/rally_event.png"
+          alt="Gulf Heritage Rally Event"
+          className="w-full rounded-2xl border border-white/10 shadow-lg shadow-black/40 object-cover"
+        />
+      </section>
+
       <section className="mx-auto max-w-7xl px-4 sm:px-6 mt-16 sm:mt-20 lg:mt-24 pb-20">
         {/* Intro Block */}
         <div className="mx-auto w-full max-w-4xl text-center">
@@ -35,12 +43,17 @@ export default function Page() {
           </div>
 
           <p className="mx-auto max-w-3xl text-white/80 leading-relaxed">
-           The Gulf Heritage Rally is a three-day touring event for classic and vintage automobiles along Florida’s Gulf Coast. Participants will drive curated routes that blend scenic shoreline stretches with inland roads that showcase the region’s charm and character. 
-            Each day features stops in historic towns, gatherings at notable landmarks, and shared meals that bring drivers and enthusiasts together.
-            There is no competition, timing, or ranking — only an appreciation for the drive, the machines, and the community they create. Open to a limited number of entrants, the rally welcomes owners who share a passion for craftsmanship, authenticity, and the enduring spirit of motoring.
+            The Gulf Heritage Rally is a three-day touring event for classic and vintage automobiles
+            along Florida’s Gulf Coast. Participants will drive curated routes that blend scenic
+            shoreline stretches with inland roads that showcase the region’s charm and character.
+            Each day features stops in historic towns, gatherings at notable landmarks, and shared
+            meals that bring drivers and enthusiasts together. There is no competition, timing, or
+            ranking — only an appreciation for the drive, the machines, and the community they
+            create. Open to a limited number of entrants, the rally welcomes owners who share a
+            passion for craftsmanship, authenticity, and the enduring spirit of motoring.
           </p>
         </div>
-        
+
         {/* Quick Facts */}
         <div className="mx-auto mt-14 grid max-w-5xl gap-4 sm:grid-cols-2 lg:grid-cols-4 text-center">
           {[
@@ -147,7 +160,7 @@ export default function Page() {
         >
           <h2 className="text-xl font-semibold text-white mb-3">Registration</h2>
           <p className="text-sm text-white/80">
-            Registration opens on <span className="text-white">[November 1st]\</span> at{" "}
+            Registration opens on <span className="text-white">[November 1st]</span> at{" "}
             <span className="text-white">jh6autoshop.com/rally</span>. Entry limited to{" "}
             <span className="text-white">30 vehicles</span> to ensure a close-knit, relaxed
             experience.
