@@ -6,8 +6,6 @@ export default function Header() {
   const [open, setOpen] = useState(false);
   const nav = [
     ["Home", "/"],
-    ["Consulting", "/consulting"],
-    ["Sourcing", "/sourcing"],
     ["Partnerships", "/partnerships"],
     ["Knowledge Hub", "/hub"],
     ["Merch", "/merch"],
@@ -26,6 +24,8 @@ export default function Header() {
               className="h-12 w-12 shrink-0 rounded-full border border-white/20 bg-neutral-900 object-cover"
             />
           </a>
+
+          {/* Desktop Navigation */}
           <nav className="hidden items-center gap-6 text-sm text-white/70 md:flex">
             {nav.map(([label, href]) => (
               <a className="hover:text-white" href={href} key={href}>
@@ -33,6 +33,8 @@ export default function Header() {
               </a>
             ))}
           </nav>
+
+          {/* Contact Button + Mobile Menu Toggle */}
           <div className="flex items-center gap-3">
             <a
               href="/contact"
@@ -52,6 +54,8 @@ export default function Header() {
           </div>
         </div>
       </div>
+
+      {/* Mobile Navigation */}
       {open && (
         <div className="md:hidden">
           <nav
