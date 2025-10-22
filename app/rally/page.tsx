@@ -10,6 +10,15 @@ export default function Page() {
         It’s not about speed; it’s about heritage, connection, and the joy of the road well traveled."
       />
 
+    {/* Event Image — centered and styled to fit your brand aesthetic */}
+              <section className="mx-auto max-w-5xl px-4 sm:px-6 mt-10">
+                <img
+                  src="/rally_event.png"
+                  alt="Gulf Heritage Rally Event"
+                  className="w-full rounded-2xl border border-white/10 shadow-lg shadow-black/40 object-cover"
+                />
+              </section>
+      
       <section className="mx-auto max-w-7xl px-4 sm:px-6 mt-16 sm:mt-20 lg:mt-24 pb-20">
         {/* Intro Block */}
         <div className="mx-auto w-full max-w-4xl text-center">
@@ -31,15 +40,6 @@ export default function Page() {
             There is no competition, timing, or ranking — only an appreciation for the drive, the machines, and the community they create. Open to a limited number of entrants, the rally welcomes owners who share a passion for craftsmanship, authenticity, and the enduring spirit of motoring.
           </p>
         </div>
-
-         {/* Event Image — centered and styled to fit your brand aesthetic */}
-              <section className="mx-auto max-w-5xl px-4 sm:px-6 mt-10">
-                <img
-                  src="/rally_event.png"
-                  alt="Gulf Heritage Rally Event"
-                  className="w-full rounded-2xl border border-white/10 shadow-lg shadow-black/40 object-cover"
-                />
-              </section>
         
         {/* Quick Facts */}
         <div className="mx-auto mt-14 grid max-w-5xl gap-4 sm:grid-cols-2 lg:grid-cols-4 text-center">
