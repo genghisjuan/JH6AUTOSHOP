@@ -14,7 +14,7 @@ export default function Page() {
         <img
           src="/rally_event.png"
           alt="Gulf Heritage Rally Event"
-          className="relative z-10 w-[70%] sm:w-[60%] md:w-[50%] max-w-[400px] rounded-2xl border border-white/10 shadow-lg shadow-black/40 object-contain"
+          className="relative z-10 w-[70%] sm:w-[60%] md:w-[50%] max-w-[600px] rounded-2xl border border-white/10 shadow-lg shadow-black/40 object-contain"
         />
       </section>
 
